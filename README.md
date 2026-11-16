@@ -6,7 +6,9 @@ Binary `dwreml` packages for
 
 - macOS (Apple Silicon),
 - macOS (Intel),
-- Linux (x86_64), and
+- Linux (x86_64)
+  - a recent Ubuntu build (Uxx.xx, glibc >= 2.41)
+  - built on an older OS requiring glibc >= 2.31, and
 - Windows (x86_64)
 
 are available under the
