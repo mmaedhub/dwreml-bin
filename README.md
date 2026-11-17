@@ -16,19 +16,20 @@ are available under the
 
 ## Installation
 
-From the system command line
+For macOS on Apple Silicon (for example), install from the system command line with
 
 ```shellscript
 > R CMD INSTALL dwreml_1.0.95_Darwin_arm64.tgz
 ```
 
-or at the `R` console
+or at the `R` console using
 
 ```R
-> install.packages("dwreml_1.0.95_Darwin_arm64.tgz", repos = NULL, type = "binary")
+> install.packages("dwreml_1.0.95_Darwin_arm64.tgz", repos = NULL)
 ```
 
-or interactively from within `R-gui`, `Rstudio` or `R.app`.
+or interactively from within `R-gui`, `Rstudio` or `R.app`. Replace the above
+package name with the appropriate target archive.
 
 ## Dependencies
 
