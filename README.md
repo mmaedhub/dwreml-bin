@@ -28,8 +28,8 @@ or at the `R` console using
 > install.packages("dwreml_1.0.95_Darwin_arm64.tgz", repos = NULL)
 ```
 
-or interactively from within `R-gui`, `Rstudio` or `R.app`. Replace the above
-package name with the appropriate target archive.
+or interactively from within `R-gui`, `Rstudio` or `R.app`, replacing the above
+macOS package with the appropriate target archive.
 
 ## Dependencies
 
