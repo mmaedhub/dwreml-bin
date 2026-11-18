@@ -83,9 +83,9 @@ switch between default libraries. For example, the following installs the openMP
 multi-threaded openBlas libraries and sets them as the system wide default:
 
 ```shellscript
-sudo apt-get install libopenblas-openmp-dev
-sudo update-alternatives --config libblas.so.3-x86-linux-gnu
-sudo update-alternatives --config liblapack.so.3-x86-linux-gnu
+> sudo apt-get install libopenblas-openmp-dev
+> sudo update-alternatives --config libblas.so.3-x86-linux-gnu
+> sudo update-alternatives --config liblapack.so.3-x86-linux-gnu
 ```
 
 ### macOS
