@@ -19,13 +19,13 @@ are available under the
 For macOS on Apple Silicon (for example), install from the system command line with
 
 ```shellscript
-> R CMD INSTALL dwreml_1.0.95_Darwin_arm64.tgz
+R CMD INSTALL dwreml_1.0.95_Darwin_arm64.tgz
 ```
 
 or at the `R` console using
 
 ```R
-> install.packages("dwreml_1.0.95_Darwin_arm64.tgz", repos = NULL)
+install.packages("dwreml_1.0.95_Darwin_arm64.tgz", repos = NULL)
 ```
 
 or interactively from within `R-gui`, `Rstudio` or `R.app`, replacing the above
@@ -62,12 +62,12 @@ the `BLAS` and `LAPACK` linear algebra libraries. Depending on the installation,
 system-wide default libraries (Linux) which may not be optimised. Just which
 libraries are in use can be checked with either
 ```R
- > sessionInfo()
+sessionInfo()
 ```
 or 
 ```R
->  La_library()             #LAPACK library in use
->  extSoftVersion()["BLAS"] #BLAS library in use
+La_library()             #LAPACK library in use
+extSoftVersion()["BLAS"] #BLAS library in use
 ```
 at the `R` command prompt. If `R` is configured to use the reference BLAS, these
 libraries in the `R` installation tree may be linked to faster alternatives such as
@@ -83,9 +83,9 @@ switch between default libraries. For example, the following installs the openMP
 multi-threaded openBlas libraries and sets them as the system wide default:
 
 ```shellscript
-> sudo apt-get install libopenblas-openmp-dev
-> sudo update-alternatives --config libblas.so.3-x86-linux-gnu
-> sudo update-alternatives --config liblapack.so.3-x86-linux-gnu
+sudo apt-get install libopenblas-openmp-dev
+sudo update-alternatives --config libblas.so.3-x86-linux-gnu
+sudo update-alternatives --config liblapack.so.3-x86-linux-gnu
 ```
 
 ### macOS
@@ -94,9 +94,9 @@ The default `R` reference BLAS symbolic link can be replaced by one to the pre-b
 Apple accelerated _vecLib_ library. Only link BLAS, not LAPACK.
 
 ```shellscript
-> cd /Library/Frameworks/R.framework/Resources/lib
-> sudo rm libRblas.dylib
-> sudo ln -s libRblas.vecLib.dylib libRblas.dylib
+cd /Library/Frameworks/R.framework/Resources/lib
+sudo rm libRblas.dylib
+sudo ln -s libRblas.vecLib.dylib libRblas.dylib
 ```
   
 ### Windows
