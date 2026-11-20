@@ -118,3 +118,18 @@ redistributable runtime library, for example. The following has been found to wo
   is in your PATH environment variable,
 
 substituting installation paths and versions numbers as necessary.
+
+## Developers
+
+David Butler, dbutler@uow.edu.au, author, maintainer\
+Sue Welham, stats4biol@gmail.com, author\
+Brian Cullis, bcullis@uow.edu.au, contributor\
+Luke Mazur, luke.mazur@agtbreeding.com.au, contributor\
+Alison Smith, alismith@uow.edu.au, contributor
+
+## Acknowledgements
+
+The Australian Grains Research and Development Corporation is recognised and
+thanked for their financial contribution to the team members from 1996 to 2020,
+which allowed the development of the skills, confidence, and research that
+enabled this project.
